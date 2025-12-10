@@ -1,0 +1,42 @@
+{
+  "name": "mess-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for IIIT Mess Management System - Interact with the mess portal through natural language using Claude",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mess",
+    "iiit",
+    "iiit-hyderabad",
+    "claude",
+    "ai",
+    "mess-management"
+  ],
+  "author": "IIIT Hyderabad Students",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mess-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mess-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/mess-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
